@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Nawal Abuzaid Profile</title>
+   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Poppins', sans-serif;
+      }
+
+      /*html, body {
+         display: grid;
+         height: 100%;
+         place-items: center;
+         background-color: #000;
+         color: #fff;
+
+      } this is the original code*/
+
+html, body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: linear-gradient(to right, #0A1A29, #0A1A29); /* Gradient from dark blue to light blue */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   /*background: linear-gradient(to right, #ff512f, #f09819);*/ ; /* Optional Gradient from red to orange */
+
+}
+
+
+      .profile {
+         text-align: center;
+      }
+
+      .profile img {
+         border-radius: 50%;
+         width: 140px;
+         height: 140px;
+         border: 5px solid #fff;
+
+      }
+
+      .company-name {
+         font-size: 24px;
+         font-weight: 600;
+         margin: 10px 0;
+      }
+
+      .slogan {
+         font-size: 18px;
+         font-weight: 500;
+         margin-bottom: 20px;
+      }
+
+      .icon-group {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 20px; /* Adds spacing between the groups */
+      }
+
+      .icons a {
+         margin: 15px 25px;
+         text-decoration: none;
+         color: #fff;
+         position: relative;
+         display: block;
+      }
+
+      .icons a .layer {
+         width: 55px;
+         height: 55px;
+         position: relative;
+         transition: transform 0.3s ease;
+      }
+
+      .icons a:hover .layer {
+         transform: rotate(-35deg) skew(20deg);
+      }
+
+      .icons a .layer span {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         border: 1px solid;
+         border-radius: 5px;
+         transition: all 0.3s ease;
+      }
+
+      .icons a .layer span.fab, 
+      .icons a .layer span.fas {
+         font-size: 30px;
+         line-height: 55px;
+         text-align: center;
+      }
+
+      .icons a:hover .layer span:nth-child(1) {
+         opacity: 0.2;
+      }
+
+      .icons a:hover .layer span:nth-child(2) {
+         opacity: 0.4;
+         transform: translate(5px, -5px);
+      }
+
+      .icons a:hover .layer span:nth-child(3) {
+         opacity: 0.6;
+         transform: translate(10px, -10px);
+      }
+
+      .icons a:hover .layer span:nth-child(4) {
+         opacity: 0.8;
+         transform: translate(15px, -15px);
+      }
+
+      .icons a:hover .layer span:nth-child(5) {
+         opacity: 1;
+         transform: translate(20px, -20px);
+      }
+
+      .icons a .text {
+         position: absolute;
+         left: 50%;
+         bottom: -5px;
+         opacity: 0;
+         font-weight: 500;
+         transform: translateX(-50%);
+         transition: bottom 0.3s ease, opacity 0.3s ease;
+      }
+
+      .icons a:hover .text {
+         bottom: -35px;
+         opacity: 1;
+      }
+
+      /* Specific styles for each icon */
+      .instagram .layer span,
+      .instagram .text {
+         color: #E1306C;
+         border-color: #E1306C;
+      }
+
+      .tiktok .layer span,
+      .tiktok .text {
+         color: #69C9D0;
+         border-color: #69C9D0;
+      }
+
+      .twitter .layer span,
+      .twitter .text {
+         /*color: #4267B2;*/
+         /*border-color: #4267B2;*/
+         color: #FFFFFF;
+         border-color: #FFFFFF;
+
+      }
+
+      .whatsapp .layer span,
+      .whatsapp .text {
+         color: #25D366;
+         border-color: #25D366;
+      }
+
+      .telegram .layer span,
+      .telegram .text {
+         color: #0088cc;
+         border-color: #0088cc;
+      }
+
+      .save-contact .layer span,
+      .save-contact .text {
+         color: #FFD700; /* Gold color for "Save Contact" icon */
+         border-color: #FFD700;
+      }
+
+   </style>
+</head>
+<body>
+   <div class="profile">
+      <img src="https://i.imgur.com/PNCshJ3.jpg" alt="Ayyoob Saad Profile Picture">
+      <div class="company-name">Ayyoob Saad</div>
+      <div class="slogan">P R E S S</div>
+
+      <div class="icons">
+         <div class="icon-group">
+            <a href="https://www.instagram.com/ayyoob_saad?igsh=MXE4YW5zeDlld2gwbw%3D%3D&utm_source=qr" class="instagram">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-instagram"></span>
+               </div>
+               <div class="text">Instagram</div>
+            </a>
+            <a href="https://www.tiktok.com/@ayoobsaeed7?_t=8pYsGhaEoeV&_r=1" class="tiktok">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-tiktok"></span>
+               </div>
+               <div class="text">TikTok</div>
+            </a>
+            <a href="https://x.com/ayyoob_yamak?s=21" class="twitter">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-twitter"></span>
+               </div>
+               <div class="text">Twitter</div>
+            </a>
+         </div>
+         <div class="icon-group">
+            <a href="https://wa.me/972567291144" class="whatsapp">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-whatsapp"></span>
+               </div>
+               <div class="text">WhatsApp</div>
+            </a>
+            <a href="https://t.me/+ufEjQWIpto82YmY0" class="telegram">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fab fa-telegram"></span>
+               </div>
+               <div class="text">Telegram</div>
+            </a>
+            <a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0D%0AVERSION%3A3.0%0D%0AFN%3AAyyoob%20Saad%0D%0AN%3Saad%3BAyyoob%3B%3B%3B%0D%0ATEL%3BTYPE%3DCELL%3A%2B972567291144%0D%0AEND%3AVCARD%0D%0A" class="save-contact" download="AyyoobSaad.vcf">
+               <div class="layer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span class="fas fa-address-book"></span>
+               </div>
+               <div class="text">Save</div>
+            </a>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
